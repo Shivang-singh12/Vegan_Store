@@ -1,0 +1,567 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png");
+  background-position: left;
+  background-size: cover;
+}
+nav {
+  background-color: white;
+  width: 100%;
+  height: 77px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 28px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0px;
+}
+.logo {
+  padding: 10px 20px 15px 5px;
+  width: 40px;
+}
+span:hover {
+  text-decoration: underline;
+}
+.topbar {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.2px;
+}
+span {
+  padding: 20px;
+}
+button {
+  width: 130px;
+  height: 35px;
+  background-color: #aad236;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  margin: 20px;
+}
+
+/* seaction 1*/
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1100px;
+  text-align: center;
+  justify-content: space-around;
+  padding: 175px 190px 190px 150px;
+}
+h1 {
+  font-size: 46px;
+  letter-spacing: 10px;
+}
+p {
+  letter-spacing: 0.1px;
+  color: #8b8b99;
+  opacity: 80%;
+}
+
+/* Seaction 2 */
+
+.seaction2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  color: white;
+  box-sizing: border-box;
+}
+.seaction2 p {
+  color: white;
+}
+.step1 {
+  background-color: #5acda6;
+  padding: 112px 48px;
+  box-sizing: border-box;
+  width: 25%;
+}
+.step2 {
+  background-color: #91ac41;
+  padding: 112px 48px;
+  box-sizing: border-box;
+  width: 25%;
+}
+.step3 {
+  background-color: #e4b476;
+  box-sizing: border-box;
+  padding: 112px 48px;
+  width: 25%;
+}
+.step4 {
+  background-color: #f69dad;
+  padding: 112px 48px;
+  box-sizing: border-box;
+  width: 25%;
+}
+i {
+  font-size: 96px;
+  transition: all 0.3s;
+}
+i:hover {
+  transform: scale(1.1, 1.1);
+}
+
+/*Section 3*/
+
+.seaction3 {
+  width: 100%;
+  background-color: #f7eee2;
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.seaction3 h1 {
+  letter-spacing: normal;
+  font-size: 44px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 8px;
+}
+.seaction3 p {
+  letter-spacing: 0.5px;
+  color: #8b8b99;
+  padding-top: 15px;
+}
+#cursive {
+  color: #91ac41;
+  font-size: 24px;
+  font-family: "Caveat", cursive;
+}
+#store-items-wrapper {
+  width: 100%;
+  max-width: 1140px;
+  display: flex;
+  justify-content: stretch;
+  margin-top: 60px;
+  margin-left: 120px;
+}
+
+.store-item {
+  width: 25%;
+  text-align: center;
+  padding: 24px;
+}
+
+.icon-wrapper {
+  display: inline-block;
+  background-color: #e3b375;
+  border-radius: 50%;
+  padding: 40px;
+  color: white;
+  transition: all 0.3s;
+}
+.store-item:hover .icon-wrapper {
+  transform: scale(1.1, 1.1);
+}
+
+.icon-wrapper i {
+  font-size: 60px;
+}
+
+.store-item h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.store-item p {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  color: #8b8b99;
+}
+
+/* seaction 4*/
+
+.seaction4 {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  padding-top: 85px;
+  padding-bottom: 75px;
+  margin-top: 45px;
+}
+.seaction4 h1 {
+  letter-spacing: normal;
+  font-size: 44px;
+  font-weight: 600;
+}
+.seaction4 p {
+  letter-spacing: 0.5px;
+  color: #8b8b99;
+}
+.card_container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card1 {
+  width: 350px;
+  height: 380px;
+  background-color: #f5f6fb;
+  border-radius: 45px 0 45px 45px;
+  box-shadow: inset 0px 4px 8px whitesmoke;
+  margin-top: 100px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+.card1:hover {
+  box-shadow: 0 12px 16px 0 rgba(39, 39, 47, 0.06);
+}
+.card1 p {
+  padding: 2px 40px 2px 40px;
+  letter-spacing: 0.5px;
+  font-style: Italic;
+  color: #8b8b99;
+}
+.card1 h5 {
+  font-size: 12px;
+  font-style: Italic;
+}
+p:last-of-type {
+  margin: -25px;
+}
+.img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 40px 40px 20px 40px;
+}
+
+/* Seaction 5 */
+.seaction5 {
+  background-color: #f69dad;
+  display: flex;
+  margin-top: 38px;
+  justify-content: stretch;
+}
+.straw {
+  width: 67%;
+  display: inline-block;
+  margin: 0;
+}
+.right_wing {
+  width: 33.33%;
+  margin: 0;
+  display: inline-block;
+  background-image: url("https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png");
+  background-position: left;
+  background-size: cover;
+}
+.right_wing .right_text_wrapper {
+  margin: 115px;
+}
+.right_wing .right_text_wrapper h3 {
+  font-size: 44px;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+.right_wing .right_text_wrapper p {
+  color: #8b8b99;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+.input_email {
+  width: 215px;
+  padding: 15px;
+  margin-left: 115px;
+  margin-top: -58px;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+  font-weight: 550;
+  box-sizing: border-box;
+  background-color: white;
+  color: #a1a1ac;
+}
+.input_email:focus {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  outline: none;
+  box-shadow: 1px 1px 4px whitesmoke, -1px -1px 4px whitesmoke;
+}
+.input_email:hover {
+  opacity: 80%;
+}
+.btn2 {
+  width: 170px;
+  height: 50px;
+  background-color: #f69dad;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  text-align: center;
+  font-weight: 550;
+  margin-left: 115px;
+  margin-top: 5px;
+}
+.btn2:hover {
+  border: 1px solid #f69dad;
+  background-color: transparent;
+  color: #f69dad;
+}
+
+/* Seaction 6*/
+
+.seaction6 {
+  width: 100%;
+  background-color: #f6fcfa;
+}
+.stats_wrapper {
+  width: 100%;
+  max-width: 1140px;
+  padding: 100px 0; /*TRBL*/
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: stretch;
+}
+.stats_item {
+  width: 25%;
+}
+.stats_item h3 {
+  font-size: 44px;
+  font-weight: 600;
+  margin: 0;
+}
+.stats_item p {
+  color: #57e3b5;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-style: italic;
+  margin: 0;
+}
+
+/*Seaction 7*/
+.seaction7 {
+}
+.seaction7 h3 {
+  text-align: center;
+  color: #8b8b99;
+  padding: 25px 0;
+  font-size: 44px;
+  font-weight: 500;
+}
+video {
+  padding: 0 25%;
+}
+
+/*Seaction 8*/
+
+.about_main {
+  width: 100%;
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.about_main > div {
+  width: 50%;
+}
+
+.about_main > div:last-of-type {
+  width: 40%;
+}
+#adp {
+  color: #91ac41;
+  font-size: 24px;
+  font-family: "Caveat", cursive;
+  margin: 0;
+  margin-top: 35px;
+}
+.address_wrapper h3 {
+  font-size: 600;
+  font-size: 44px;
+  margin: 0;
+}
+.section-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #8b8b99;
+  letter-spacing: 0.5px;
+}
+.address_wrapper h5 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  margin-top: 32px;
+}
+.address_line {
+  font-size: 16px;
+  font-weight: 400;
+  color: #8b8b99;
+  letter-spacing: 0.5px;
+  line-height: 2;
+  margin: 0;
+}
+.address_line2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #8b8b99;
+  letter-spacing: 0.5px;
+  line-height: 2;
+  margin: 0;
+  padding: 4.5% 4.8%;
+}
+.section-description2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #8b8b99;
+  letter-spacing: 0.5px;
+  padding: 8.2% 2%;
+}
+#meetc {
+  color: #91ac41;
+  font-size: 24px;
+  font-family: "Caveat", cursive;
+  margin: 0;
+  margin-top: 35px;
+}
+.contact_wrapper h3 {
+  font-size: 600;
+  font-size: 44px;
+  margin: 0;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 55px;
+  border-radius: 5px;
+}
+.input_name {
+  width: 455px;
+  padding: 15px;
+  margin-left: -20px;
+  margin-top: -28px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  border-radius: 4px;
+  font-weight: 550;
+  box-sizing: border-box;
+  background-color: white;
+  color: #a1a1ac;
+}
+.input_name:focus {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  outline: none;
+  opacity: 60%;
+}
+.input_number {
+  width: 455px;
+  padding: 15px;
+  margin-left: -20px;
+  margin-top: 22px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  border-radius: 4px;
+  font-weight: 550;
+  box-sizing: border-box;
+  background-color: white;
+  color: #a1a1ac;
+}
+.input_number:focus {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  outline: none;
+  opacity: 60%;
+}
+.input_subject {
+  width: 455px;
+  padding: 15px;
+  margin-left: -20px;
+  margin-top: 22px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  border-radius: 4px;
+  font-weight: 550;
+  box-sizing: border-box;
+  background-color: white;
+  color: #a1a1ac;
+}
+.input_subject:focus {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  outline: none;
+  opacity: 60%;
+}
+.input_email2 {
+  width: 455px;
+  padding: 15px;
+  margin-left: -20px;
+  margin-top: 22px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  border-radius: 4px;
+  font-weight: 550;
+  box-sizing: border-box;
+  background-color: white;
+  color: #a1a1ac;
+}
+.input_email2:focus {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  outline: none;
+  opacity: 60%;
+}
+.input_message {
+  width: 455px;
+  padding: 15px;
+  height: 70px;
+  margin-left: -20px;
+  margin-top: 22px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  border-radius: 4px;
+  font-weight: 550;
+  box-sizing: border-box;
+  background-color: white;
+  color: #a1a1ac;
+}
+.input_message:focus {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  outline: none;
+  opacity: 60%;
+}
+.btn3 {
+  width: 170px;
+  height: 45px;
+  font-size: 16px;
+  background-color: #aad236;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  text-align: center;
+  font-weight: 550;
+  margin-left: -20px;
+  margin-top: 22px;
+}
+.btn3:hover {
+  background-color: #839254;
+}
+
+/*Seaction 9*/
+footer {
+  background-color: #232323;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  padding: 30px 0px;
+}
