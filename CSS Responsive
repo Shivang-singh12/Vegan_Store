@@ -1,0 +1,292 @@
+@media screen and (max-width: 500px) {
+  body {
+    width: auto;
+  }
+
+  /*Seaction 1*/
+
+  header {
+    width: auto;
+    max-width: 450px;
+  }
+  nav {
+    width: auto;
+    max-width: 450px;
+  }
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    text-align: center;
+    justify-content: space-around;
+    padding: 175px 20px;
+  }
+  .content h1 {
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+  .content p {
+    letter-spacing: 0.1px;
+    color: #8b8b99;
+    opacity: 90%;
+  }
+  .logo {
+    padding: 10px 5px 15px 5px;
+    width: 40px;
+    margin-left: -8px;
+  }
+  span {
+    display: none;
+  }
+  button {
+    width: 80px;
+    height: 30px;
+    margin: 0 auto;
+    margin-left: 230px;
+  }
+
+  /*Seaction 2*/
+
+  .seaction2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+  }
+  .step1 {
+    padding: 92px 48px;
+
+    width: 100%;
+  }
+  .step2 {
+    padding: 92px 48px;
+
+    width: 100%;
+  }
+  .step3 {
+    padding: 92px 48px;
+    width: 100%;
+  }
+  .step4 {
+    padding: 92px 48px;
+
+    width: 100%;
+  }
+
+  /*Seaction 3*/
+
+  .seaction3 {
+    width: 100%;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 45px;
+  }
+  .seaction3 h1 {
+    letter-spacing: normal;
+    font-size: 38px;
+  }
+  .seaction3 p {
+    letter-spacing: normal;
+    color: #8b8b99;
+    padding: 15px 15px;
+    overflow-wrap: wrap;
+  }
+  #store-items-wrapper {
+    width: 100%;
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 0;
+  }
+  .store-item {
+    width: 100%;
+    text-align: center;
+    padding: 24px;
+  }
+
+  .icon-wrapper {
+    display: inline-block;
+    background-color: #e3b375;
+    border-radius: 50%;
+    padding: 40px;
+    color: white;
+    transition: all 0.3s;
+  }
+  .store-item h3 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .store-item p {
+    font-size: 14px;
+    letter-spacing: normal;
+    padding-top: 15px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 15px;
+    margin-left: -55px;
+  }
+
+  /*Seaction 4*/
+
+  .seaction4 {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 45px;
+    margin-top: 35px;
+  }
+  .seaction4 h1 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .seaction4 p {
+    letter-spacing: normal;
+    color: #8b8b99;
+    padding: 3% 4%;
+  }
+  .card_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .card1 {
+    width: 100%;
+    height: 385px;
+    margin-top: 50px;
+  }
+
+  /* Seaction 5 */
+
+  .straw {
+    display: none;
+  }
+  .right_wing {
+    width: 100%;
+  }
+  .right_wing .right_text_wrapper {
+    margin: 45px;
+  }
+  .right_wing .right_text_wrapper h3 {
+    font-size: 38px;
+  }
+  .input_email {
+    width: 220px;
+    padding: 15px;
+    margin: -60px 0 0 45px;
+    border: 1px solid #f4f2f4;
+    font-size: 16px;
+  }
+  .btn2 {
+    width: 170px;
+    height: 50px;
+    margin: 10px 0 0 46px;
+  }
+
+  /*Seaction 6*/
+
+  .stats_wrapper {
+    width: 100%;
+    max-width: 480px;
+    padding: 50px 90px; /*TRBL*/
+    flex-direction: column;
+  }
+  .stats_item {
+    width: 50%;
+  }
+  .stats_item h3 {
+    font-size: 38px;
+  }
+  .stats_item p {
+    font-size: 12px;
+  }
+
+  /*Seaction 7*/
+
+  video {
+    width: 260px;
+    height: 200px;
+    padding: 0 4%;
+  }
+
+  /*Seaction 8*/
+
+  .about_main {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 50px 60px;
+  }
+  .about_main > div {
+    width: 50%;
+  }
+
+  .about_main > div:last-of-type {
+    width: 70%;
+  }
+  .address_line2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    margin: 0;
+    padding: 11% 12%;
+  }
+  .input_name {
+    width: 100%;
+    margin-left: -25px;
+  }
+  .input_number {
+    width: 100%;
+    margin-left: -25px;
+  }
+  .input_subject {
+    width: 100%;
+    margin-left: -25px;
+  }
+  .input_email2 {
+    width: 100%;
+    margin-left: -25px;
+  }
+  .input_message {
+    width: 100%;
+    margin-left: -25px;
+  }
+  .btn3 {
+    width: 150px;
+    margin-left: -25px;
+  }
+  .section-description2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.2px;
+    padding: 8.2% 0%;
+  }
+  #meetc {
+    color: #91ac41;
+    font-size: 24px;
+    font-family: "Caveat", cursive;
+    margin-left: 20px;
+    margin-top: 35px;
+  }
+  .contact_wrapper h3 {
+    font-size: 600;
+    font-size: 36px;
+    margin: 0;
+  }
+
+  /*Seaction 9*/
+
+  footer {
+    background-color: red;
+  }
+}
